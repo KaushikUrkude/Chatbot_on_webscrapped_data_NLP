@@ -1,26 +1,20 @@
 Chatbot on Web-Scraped Data
 Overview
-This project demonstrates a sophisticated chatbot built on web-scraped data. The chatbot leverages advanced web crawling, data chunking, and vector database techniques to answer user queries accurately. It utilizes a hybrid retrieval approach combining BM25 and BERT-based methods for effective data retrieval and re-ranking, enhancing the overall user experience.
+This project features an advanced chatbot designed to provide accurate answers based on web-scraped data. The chatbot integrates sophisticated web crawling, data chunking, and vector database techniques. It employs a hybrid retrieval approach, combining BM25 and BERT-based methods for efficient data retrieval and re-ranking, thereby enhancing the user experience.
 
 Features
-1_web_crawler
-Description: Contains the code for scraping data from websites and their sub-links up to 5 levels deep.
-
-2_data_processing
+1. web_crawler
+Description: Contains code for scraping data from websites and their sub-links up to 5 levels deep.
+2. data_processing
 Description: Includes scripts for cleaning, processing, and preparing the scraped data for further analysis.
-
-3_Create_embedding
+3. create_embedding
 Description: Scripts for generating embeddings from the processed data.
-
-4_Chunking_cosine_similarity
+4. chunking_cosine_similarity
 Description: Implements data chunking based on cosine similarity between sentences or topics.
-
-5_uploading_Embeddings_MILVUS
+5. uploading_embeddings_milvus
 Description: Code for uploading the generated embeddings into the MILVUS vector database.
-
-6_qna-model
-Description: Contains the implementation of the question-answering model that uses the embeddings to answer user queries.
-Docker_and_Milvus_Config
-
+6. qna_model
+Description: Contains the implementation of the question-answering model that uses the embeddings to respond to user queries.
+7. docker_and_milvus_config
 Description: Configuration files and scripts for setting up Docker containers and configuring MILVUS.
 Key Files: Dockerfile, docker-compose.yml, milvus_config.yml
