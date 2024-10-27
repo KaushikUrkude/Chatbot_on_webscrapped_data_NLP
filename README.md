@@ -48,8 +48,8 @@ Open VsCode:<br/>
 2.Start Vscode and run each file sequentially as in reposotory.
 
 Setup Docker:<br/>
-**Prerequisites:**
-1.Install Docker: Make sure Docker is installed on your machine. 
+**Prerequisites:**<br/>
+1.Install Docker: Make sure Docker is installed on your machine.<br/> 
 You can download and install Docker from the official Docker website.
 
 1.Install Docker Compose: Docker Compose is included with Docker Desktop 
