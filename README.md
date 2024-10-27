@@ -1,8 +1,8 @@
-Chatbot on Web-Scraped Data
+#Chatbot on Web-Scraped Data
 Overview
 This project features an advanced chatbot designed to provide accurate answers based on web-scraped data. The chatbot integrates sophisticated web crawling, data chunking, and vector database techniques. It employs a hybrid retrieval approach, combining BM25 and BERT-based methods for efficient data retrieval and re-ranking, thereby enhancing the user experience.
 
-Features
+**Features**
 1. web_crawler
 Description: Contains code for scraping data from websites and their sub-links up to 5 levels deep.
 2. data_processing
